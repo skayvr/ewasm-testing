@@ -1,2 +1,2 @@
-# ewasm-tests ![skayvr](https://circleci.com/gh/skayvr/ewasm-tests.svg?style=shield)
+# ewasm-testing ![skayvr](https://circleci.com/gh/skayvr/ewasm-testing.svg?style=shield)
 
