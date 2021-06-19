@@ -7,7 +7,7 @@ defaults:
     run:
       name: "Update git submodules"
       command: |
-        git submodule update --init
+        git submodule update --init --recursive
 
   environment-info: &environment-info
     run:
