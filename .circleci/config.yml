@@ -9,7 +9,7 @@ defaults:
       command: |
         git submodule update --init
 
- environment-info: &environment-info
+  environment-info: &environment-info
     run:
       name: "Environment info"
       command: |
