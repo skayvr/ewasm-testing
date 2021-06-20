@@ -21,7 +21,7 @@ defaults:
         $CXX --version >> toolchain
         echo $GENERATOR >> toolchain
 
-  build-hera:
+  build-hera: &build-hera
     run:
       name: "Build hera"
       command: |
