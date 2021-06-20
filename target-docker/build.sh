@@ -12,8 +12,8 @@ pushd hera
 mkdir build
 
 pushd build
-cmake -DBUILD_SHARED_LIBS=ON ..
-cmake --build .
+cmake -DBUILD_SHARED_LIBS=ON .. || exit 1
+cmake --build . || exit 1
 popd
 
 popd
