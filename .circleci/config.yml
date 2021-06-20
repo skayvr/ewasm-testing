@@ -39,7 +39,7 @@ jobs:
       - BUILD_PARALLEL_JOBS: 4
       - CMAKE_OPTIONS: -DBUILD_SHARED_LIBS=OFF -DHERA_DEBUGGING=ON -DHERA_BINARYEN=ON -DHERA_WAVM=ON -DHERA_WABT=ON
     docker:
-      - image: ethereum/cpp-build-env:9
+      - image: ethereum/cpp-build-env:clang-9
     steps:
       - checkout
       - *update-submodules
