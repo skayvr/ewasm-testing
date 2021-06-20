@@ -44,6 +44,7 @@ jobs:
       - checkout
       - *update-submodules
       - *environment-info
+      - *build-hera
       # - *restore-deps-cache
       # - *configure
       # - *build
